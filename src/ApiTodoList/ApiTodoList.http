@@ -1,6 +1,30 @@
 @ApiTodoList_HostAddress = http://localhost:5062
 
-GET {{ApiTodoList_HostAddress}}/weatherforecast/
+GET {{ApiTodoList_HostAddress}}/api/todo
 Accept: application/json
 
 ###
+GET {{ApiTodoList_HostAddress}}/api/todo/1
+Accept: application/json
+
+###
+POST {{ApiTodoList_HostAddress}}/api/todo
+Content-Type: application/json
+
+{
+  "title": "Create Todo List API",
+  "isCompleted": false
+}
+
+###
+PUT {{ApiTodoList_HostAddress}}/api/todo/1
+Content-Type: application/json
+
+{  
+  "title": "Create Todo List API",
+  "isCompleted": true
+}
+
+###
+DELETE {{ApiTodoList_HostAddress}}/api/todo/2
+Accept: application/json
