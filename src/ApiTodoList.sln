@@ -5,6 +5,8 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiTodoList", "ApiTodoList\ApiTodoList.csproj", "{B1B9BE57-B28D-4857-82EA-BDA49593DE7A}"
 EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{0A05CADB-365F-496C-B2CC-3D521D80837B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,8 +17,15 @@ Global
 		{B1B9BE57-B28D-4857-82EA-BDA49593DE7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B1B9BE57-B28D-4857-82EA-BDA49593DE7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B1B9BE57-B28D-4857-82EA-BDA49593DE7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A05CADB-365F-496C-B2CC-3D521D80837B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A05CADB-365F-496C-B2CC-3D521D80837B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A05CADB-365F-496C-B2CC-3D521D80837B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A05CADB-365F-496C-B2CC-3D521D80837B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EEAA0D65-FA49-4770-9731-182F44A53D60}
 	EndGlobalSection
 EndGlobal
